@@ -1,6 +1,6 @@
 // src/components/PaymentForm.js
 import React, { useState } from "react";
-import Payment from "../models/Payment";
+import Payment from "../model/Payment";
 import "../App.css";
 
 const PaymentForm = ({ onSubmit }) => {

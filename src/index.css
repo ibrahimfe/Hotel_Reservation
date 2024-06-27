@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{font-family: poppins ,Arial, Helvetica, sans-serif;}
 
 body {
   margin: 0;
