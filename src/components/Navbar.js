@@ -4,28 +4,18 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-[#EDEFFD] text-[#4464AD] p-4 shadow">
+    <nav className="bg-[#EEEEFA] text-[#4464AD] p-6 shadow">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <a href="./Hero.js">
-            <img src={logo} alt="HotelGo Logo" className="h-8 mr-2" />
-            <span className="text-xl font-bold"></span>
-          </a>
+          <img src={logo} alt="HotelGo Logo" className="h-10 mr-2" />
+          <span className="text-xl font-bold"></span>
         </div>
         <div className="hidden md:flex">
-          <a href="#facilities" className="mx-2">
-            Facilities
-          </a>
-          <a href="#best-offer" className="mx-2">
-            Best Offer
-          </a>
-          <a href="#contact" className="mx-2">
-            About
-          </a>
-          <a href="#contact" className="mx-2">
-            Contact
-          </a>
-          <Link to="/payment">Payment</Link>
+          <a href="#home" className="mx-4">Home</a>
+          <a href="#facilities" className="mx-4">Facilities</a>
+          <a href="#best-offer" className="mx-4">Best Offer</a>
+          <a href="#contact" className="mx-4">About</a>
+          <a href="#contact" className="mx-4">Contact</a>
         </div>
         <button className="md:hidden">
           <svg
