@@ -14,11 +14,11 @@ function Facilities() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div className="relative rounded-xl overflow-hidden">
             <img src={oneBedRoom} alt="One Bed Room" className="w-full h-48 object-cover rounded" />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-2xl font-bold">One Bed Room</div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-2xl font-bold">King Bed Room</div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
             <img src={twoBedRoom} alt="Two Bed Room" className="w-full h-48 object-cover rounded" />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-2xl font-bold">Two Bed Room</div>
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-2xl font-bold">Twin Bed Room</div>
           </div>
           <div className="relative rounded-xl overflow-hidden">
             <img src={tv} alt="TV" className="w-full h-48 object-cover rounded" />
