@@ -1,5 +1,5 @@
 import React from 'react';
-import './ImageUpload.css';
+import '../ImageUpload.css';
 
 const ImageUpload = () => {
   return (

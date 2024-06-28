@@ -14,8 +14,9 @@ function Navbar() {
           <a href="#home" className="mx-4">Home</a>
           <a href="#facilities" className="mx-4">Facilities</a>
           <a href="#best-offer" className="mx-4">Best Offer</a>
-          <a href="#contact" className="mx-4">About</a>
+          <Link to="/about" className="mx-4">About</Link>
           <a href="#contact" className="mx-4">Contact</a>
+          <Link to="/payment" className="mx-4">Payment</Link>
         </div>
         <button className="md:hidden">
           <svg
