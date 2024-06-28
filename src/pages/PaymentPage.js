@@ -1,7 +1,7 @@
-// PaymentPage.js
 import React from "react";
 import PaymentForm from "../components/PaymentForm"; // Ganti dengan path yang sesuai
 import PaymentSummary from "../components/PaymentSummary"; // Ganti dengan path yang sesuai
+import Footer from "../components/Footer";
 
 const PaymentPage = ({ payment, handlePaymentSubmit }) => {
   return (
@@ -12,6 +12,8 @@ const PaymentPage = ({ payment, handlePaymentSubmit }) => {
       ) : (
         <PaymentSummary payment={payment} />
       )}
+      <Footer />
+
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './About.css';
 import About from './components/About';
 import ImageUpload from './components/ImageUpload';
 import Navbar from './components/Navbar';
@@ -15,7 +15,7 @@ function Aboutroute() {
       </header>
       <About />
       <ImageUpload />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

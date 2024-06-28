@@ -3,7 +3,7 @@ import headerImage from '../assets/header.jpg';  // Import gambar header.jpg dar
 
 function Hero() {
   return (
-    <div className="relative bg-cover bg-center h-screen" style={{ 
+    <div id='home' className="relative bg-cover bg-center h-screen" style={{ 
       backgroundImage: `url(${headerImage})`  
       
     }}>

@@ -4,7 +4,7 @@ import "../App.css";
 
 const PaymentSummary = ({ payment }) => {
   return (
-    <div>
+    <div className="paymentSummary">
       <h2>Payment Summary</h2>
       <p>Name: {payment.name}</p>
       <p>Email: {payment.email}</p>

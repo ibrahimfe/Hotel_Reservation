@@ -41,7 +41,7 @@ const PaymentForm = ({ onSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="paymentForm">
       <div>
         <label>Name on Card</label>
         <input
@@ -97,7 +97,7 @@ const PaymentForm = ({ onSubmit }) => {
         />
       </div>
       <div>
-        <label>Card Number</label>
+        <label>Card Number (16)</label>
         <input
           type="text"
           value={cardNumber}
