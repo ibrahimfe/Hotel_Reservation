@@ -11,12 +11,24 @@ function Navbar() {
           <span className="text-xl font-bold"></span>
         </div>
         <div className="hidden md:flex">
-          <a href="#home" className="mx-4">Home</a>
-          <a href="#facilities" className="mx-4">Facilities</a>
-          <a href="#best-offer" className="mx-4">Best Offer</a>
-          <Link to="/about" className="mx-4">About</Link>
-          <a href="#contact" className="mx-4">Contact</a>
-          <Link to="/payment" className="mx-4">Payment</Link>
+          <Link to="/" className="mx-4">
+            Home
+          </Link>
+          <a href="#facilities" className="mx-4">
+            Facilities
+          </a>
+          <a href="#best-offer" className="mx-4">
+            Best Offer
+          </a>
+          <Link to="/about" className="mx-4">
+            About
+          </Link>
+          <a href="#contact" className="mx-4">
+            Contact
+          </a>
+          <Link to="/payment" className="mx-4">
+            Payment
+          </Link>
         </div>
         <button className="md:hidden">
           <svg

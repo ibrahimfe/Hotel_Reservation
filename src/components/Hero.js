@@ -1,5 +1,6 @@
 import React from "react";
-import headerImage from "../assets/header.jpg"; // Import gambar header.jpg dari folder src/assets
+import headerImage from "../assets/header.jpg";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -16,12 +17,12 @@ function Hero() {
         </h1>
         <p className="text-xl md:text-2xl mt-4 text-white">Book a Room</p>
         <div className="mt-4 flex space-x-4">
-          <button className="p-3 bg-[#F58F29] text-white rounded">
+          <Link to="/list" className="p-3 bg-[#F58F29] text-white rounded">
             List Product
-          </button>
-          <button className="p-3 bg-[#F58F29] text-white rounded">
+          </Link>
+          <Link to="/payment" className="p-3 bg-[#F58F29] text-white rounded">
             Form Payment
-          </button>
+          </Link>
         </div>
       </div>
     </div>
