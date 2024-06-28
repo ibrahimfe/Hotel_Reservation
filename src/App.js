@@ -8,7 +8,7 @@ import BestOffer from "./components/BestOffer";
 import Footer from "./components/Footer";
 import PaymentPage from "./pages/PaymentPage";
 import AboutPage from "./pages/AboutPage";
-
+import ProductList from "./components/ProductList";
 
 const App = () => {
   const [payment, setPayment] = useState(null);
@@ -44,8 +44,8 @@ const App = () => {
             }
           />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/list" element={<ProductList />} />
         </Routes>
-        
       </div>
     </Router>
   );
