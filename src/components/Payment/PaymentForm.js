@@ -1,7 +1,7 @@
 // src/components/PaymentForm.js
 import React, { useState } from "react";
-import Payment from "../model/Payment";
-import "../App.css";
+import Payment from "../../model/Payment";
+import "../../App.css";
 
 const PaymentForm = ({ onSubmit }) => {
   const [name, setName] = useState("");

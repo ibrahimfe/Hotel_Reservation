@@ -1,16 +1,16 @@
-import React from 'react'; // Mengimpor CSS dari komponen About
-import About from '../components/About';
-import Facilities from '../components/Facilities';
-import Footer from '../components/Footer';
+import React from "react"; // Mengimpor CSS dari komponen About
+import About from "../components/About/About";
+import Facilities from "../components/LandingPage/Facilities";
+import Footer from "../components/Footer/Footer";
 
-const AboutPages = () => {
-   return (
-      <div>
-         <About />
-         <Facilities />
-         <Footer />
-      </div>
-   );
-}
+const AboutPage = () => {
+  return (
+    <div>
+      <About />
+      <Facilities />
+      <Footer />
+    </div>
+  );
+};
 
-export default AboutPages; // Mengexport komponen AboutPages
+export default AboutPage; // Mengexport komponen AboutPages

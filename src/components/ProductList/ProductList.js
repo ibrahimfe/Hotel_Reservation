@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import oneBedRoom from "../assets/kasur.jpg";
-import twoBedRoom from "../assets/kasur2.jpg";
-import bestOfferRoom1 from "../assets/best1.jpg";
-import image1 from "../assets/best2.jpg";
-import image2 from "../assets/best3.jpg";
-import image3 from "../assets/dapur.jpg";
-import image4 from "../assets/dapur2.jpg";
-import image5 from "../assets/kamarmandi.jpg";
-import image6 from "../assets/kamarmandi2.jpg";
+import oneBedRoom from "../../assets/kasur.jpg";
+import twoBedRoom from "../../assets/kasur2.jpg";
+import bestOfferRoom1 from "../../assets/best1.jpg";
+import image1 from "../../assets/best2.jpg";
+import image2 from "../../assets/best3.jpg";
+import image3 from "../../assets/dapur.jpg";
+import image4 from "../../assets/dapur2.jpg";
+import image5 from "../../assets/kamarmandi.jpg";
+import image6 from "../../assets/kamarmandi2.jpg";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);

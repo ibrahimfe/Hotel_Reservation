@@ -1,6 +1,6 @@
 // src/components/PaymentSummary.js
 import React from "react";
-import "../App.css";
+import "../../App.css";
 
 const PaymentSummary = ({ payment }) => {
   return (

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Facilities from "./components/Facilities";
-import BestOffer from "./components/BestOffer";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/LandingPage/Hero";
+import Facilities from "./components/LandingPage/Facilities";
+import BestOffer from "./components/LandingPage/BestOffer";
+import Footer from "./components/Footer/Footer";
 import PaymentPage from "./pages/PaymentPage";
 import AboutPage from "./pages/AboutPage";
 import ListPage from "./pages/ListPage";
